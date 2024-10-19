@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Login</title>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Selamat Datang di Sistem Informasi Jadwal 22 TI B</h1>
+        <div class="login-container">
+          <h2>Login</h2>
+          <form action="index.html" method="GET">
+            <div>
+              <label for="level">Level:</label>
+              <select name="level" id="level">
+                <option value="mahasiswa">Mahasiswa</option>
+                <option value="dosen">Dosen</option>
+              </select>
+            </div>
+            <div>
+              
+              <input type="text" id="email" placeholder="NIM" required pattern="[0-9]+" />
+            </div>
+            <div>
+       
+              <input type="password" id="password" placeholder="Password" required minlength="8" />
+            </div>
+            <button type="submit">LOGIN</button>
+          </form>
+          <p>Lupa Password? Hubungi Admin!</p>
+          <p class="text-center">Belum punya akun? <a href="register.html">Daftar di sini</a></p>
+        </div>
+      </section>
+    </main>
+
+    <script src="javascript/login.js"></script>
+  </body>
+</html>

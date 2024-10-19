@@ -1,0 +1,31 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background-color: #e9ecef;
+}
+
+.login-container {
+  max-width: 350px;
+  margin: auto;
+  padding: 40px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.1);
+}
+form .btn-custom {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+h2 {
+  font-weight: bold;
+}
+
+p {
+  color: #555;
+}

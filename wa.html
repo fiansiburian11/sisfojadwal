@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/wa.css" />
+    <title>Add No WA</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="index.html">Home</a>
+            <a href="jadwal.html">Jadwal</a>
+            <a href="wa.html">Whatsapp</a>
+            <a href="tugas.html">Tugas</a>
+          </div>
+          <div class="btn">
+            <button class="openbtn" onclick="openNav()">☰</button>
+            <a href="index.html" class="backbtn">
+              <img src="img/backbutton_104978.png" alt="Logo" />
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <h2>Daftar No HP Anda</h2>
+          <form action="submit_number.php" method="POST">
+            <div class="input">
+              <label for="phone">Nomor WhatsApp:</label>
+              <input type="tel" id="phone" required placeholder="Masukkan nomor WhatsApp Anda" />
+              <button type="submit">Daftar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="javascript/index.js"></script>
+  </body>
+</html>

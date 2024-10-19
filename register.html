@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/register.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Daftar</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="login-container mt-5">
+          <h2 class="text-center">Daftar</h2>
+          <form action="submit_registration.php" method="POST">
+            <div class="mb-3">
+              <label for="username" class="form-label">Username</label>
+              <input type="text" class="form-control" id="username" required />
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password" required />
+            </div>
+            <div class="mb-3">
+              <label for="nim" class="form-label">NIM (Student ID)</label>
+              <input type="number" class="form-control" id="nim" required />
+            </div>
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama (Name)</label>
+              <input type="text" class="form-control" id="nama" required />
+            </div>
+            <div class="mb-3">
+              <label for="no_whatsapp" class="form-label">No Whatsapp (Phone Number)</label>
+              <input type="tel" class="form-control" id="no_whatsapp" required />
+            </div>
+            <button type="submit" class="btn w-100 btn-custom">Daftar</button>
+            <p class="text-center mt-3">Sudah punya akun? <a href="login.html">Masuk di sini</a>.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
