@@ -84,8 +84,6 @@ function convertDay(number) {
 const convertToJakartaTime = (dateString) => {
   const date = new Date(dateString);
 
-  // Mengurangi 7 jam (7 * 60 * 60 * 1000 ms)
-  date.setHours(date.getHours() - 7);
 
   return date.toLocaleString("id-ID", {
     hour: "2-digit",
